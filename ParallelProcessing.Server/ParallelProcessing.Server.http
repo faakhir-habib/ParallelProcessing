@@ -1,0 +1,6 @@
+@ParallelProcessing.Server_HostAddress = http://localhost:5217
+
+GET {{ParallelProcessing.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
